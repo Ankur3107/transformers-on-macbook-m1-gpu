@@ -1,5 +1,7 @@
 # transformers-on-macbook-m1-gpu
 
+Around 2-3x improvement in training time over m1 cpu.
+
 ![localImage](./training_pic.png)
 
 # Install Pytorch for Macbook M1 GPU
