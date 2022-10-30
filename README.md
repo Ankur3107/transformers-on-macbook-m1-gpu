@@ -12,10 +12,10 @@
     $ conda activate torch-gpu
 
 ##  Step 3: Install Pytorch
-    conda install pytorch torchvision torchaudio -c pytorch-nightly
+    $ conda install pytorch torchvision torchaudio -c pytorch-nightly
 
     # If not working with conda then try pip
-    pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
+    $ pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu
 
 ## Step 4: Sanity Check
 
