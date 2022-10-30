@@ -1,5 +1,7 @@
 # transformers-on-macbook-m1-gpu
 
+![localImage](./training_pic.png)
+
 # Install Pytorch for Macbook M1 GPU
 
 ##  Step 1: Install Xcode
@@ -30,11 +32,16 @@ print(torch.backends.mps.is_built())
 
 ## Step 1: Install Rust
 
-    curl — proto ‘=https’ — tlsv1.2 -sSf https://sh.rustup.rs | sh
+    $ curl — proto ‘=https’ — tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ## Step 2: Install transformers
 
-    pip install transformers
+    $ pip install transformers
+
+
+# Train QA model
+
+    $ sh run.sh
 
 # Reference
 
