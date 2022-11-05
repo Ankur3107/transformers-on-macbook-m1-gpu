@@ -1,6 +1,6 @@
 # transformers-on-macbook-m1-gpu
 
-Around 2-3x improvement in training time over m1 cpu.
+Around 1.5-2x improvement in training time over m1 cpu.
 
 ![localImage](./training_pic.png)
 
@@ -54,6 +54,8 @@ print(torch.backends.mps.is_built())
 | M1 GPU (Macbook pro 13 2020 model) | ~328 sec |
 | M1 CPU (Macbook pro 13 2020 model) | ~527 sec  |
 | Kaggle CPU Notebook | ~1500 sec  |
+
+![localImage](./benchmark_pic.png)
 
 # Reference
 
