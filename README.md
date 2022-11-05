@@ -44,6 +44,16 @@ print(torch.backends.mps.is_built())
 # Train QA model
 
     $ sh run.sh
+    
+# Benchmark
+
+| System | Training Time (200 steps)    |
+| :---:   | :---: |
+| Kaggle P100 Notebook | ~32 sec   |
+| Colab T4 Notebook | ~47 sec  |
+| M1 GPU (Macbook pro 13 2020 model) | ~328 sec |
+| M1 CPU (Macbook pro 13 2020 model) | ~527 sec  |
+| Kaggle CPU Notebook | ~1500 sec  |
 
 # Reference
 
